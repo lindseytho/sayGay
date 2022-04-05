@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Say Gay",
+  "description": "Extension that replaces all instances of 'Ron DeSantis' with a gay olde time",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
